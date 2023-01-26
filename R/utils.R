@@ -10,4 +10,4 @@
 #' #> [1] 4
 #' @export
 
-`%+=%` = function(t, s) eval.parent(substitute((t) <- (t) + (s)))
+`%+=%` = function(t, s) eval.parent(substitute(t <- t + s))

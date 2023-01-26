@@ -5,6 +5,9 @@ Authors@R: person("Judith", "Jennert", email = "none@jennert.net", role = c("aut
 URL: https://github.com/jukaje/coma
 BugReports: https://github.com/jukaje/coma/issues
 License: GPL-2
-
+Version: 0.0.1
+Encoding: UTF-8
+VignetteBuilder: knitr
 Imports: checkmate
 Suggests: testthat
+RoxygenNote: 7.1.2

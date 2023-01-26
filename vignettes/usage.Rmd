@@ -1,0 +1,28 @@
+---
+title: "Usage"
+author: "jukaje"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Usage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+
+## Add an amount directly to a variable.
+
+x <- 12
+x %+=% 30
+#> [1] 42
+
+
+
