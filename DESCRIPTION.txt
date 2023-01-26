@@ -1,0 +1,10 @@
+Package: coma
+Titel: A tiny package for compound assignments
+Description: It does something
+Authors@R: person("Judith", "Jennert", email = "none@jennert.net", role = c("aut", "cre"))
+URL: https://github.com/jukaje/coma
+BugReports: https://github.com/jukaje/coma/issues
+License: GPL-2
+
+Imports: checkmate
+Suggests: testthat
